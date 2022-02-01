@@ -12,13 +12,41 @@ h1 {
 }
 
 header {
+  font-family: "Londrina Shadow", cursive;
+  font-size: 32px;
+  background: url(../public/EXKkwDEVAAEjkJa.jpeg);
   text-align: center;
+  height: 160px;
   padding: 4px 10%;
   margin-bottom: 50px;
-  background-color: rgb(102, 94, 74);
+  background-color: whitesmoke;
+  font-size: 32px;
 }
+
+.targetInputArea {
+  font-family: "Londrina Shadow", cursive;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 24px;
+  /* height: 160px; */
+}
+
+.targetTitleInput {
+  margin-top: 24px;
+  width: 200px;
+  height: 40px;
+}
+
+.mokuhyou {
+  display: inline-block;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
 .app {
-  background: url(../src/images/nature-3151869_1280.jpg);
+  background: url(../public/paper_00108.jpeg);
   height: 100vh;
   width: 100%;
   /* background-repeat: no-repeat; */
@@ -27,8 +55,8 @@ header {
 .taskCard {
   width: 250px;
   padding: 10px 25px;
-  margin: 10px 8px 15px 15px;
-  background-color: rgb(228, 228, 228);
+  margin: 4px 2px 15px 15px;
+  background-color: rgba(19, 2, 2, 0.329);
   border-radius: 5px;
 }
 
@@ -110,8 +138,8 @@ header {
 
 .taskCardDeleteButton {
   border: none;
-  background-color: rgb(228, 228, 228);
+  background-color: rgba(19, 2, 2, 0.329);
   cursor: pointer;
   font-size: 16px;
-  color: rgb(158, 46, 46);
+  color: rgb(5, 0, 0);
 }
