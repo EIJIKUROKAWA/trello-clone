@@ -5,7 +5,7 @@ import { TaskCardDeleteButton } from '../task/button/TaskCardDeleteButton';
 export const Header = () => {
   
   const [isClick, setIsClick] = useState(false);
-  const [inputCardTitle, setInputCardTitle] = useState("Today");
+  const [inputCardTitle, setInputCardTitle] = useState("目標設定");
   
   const handleClick = () => {
     setIsClick(true);

@@ -20,7 +20,7 @@ export const Tasks = ({ taskList, setTaskList }) => {
           {(provided) => (
            <div {...provided.droppableProps} ref={provided.innerRef}>   
             {taskList.map((task, index) => (
-             <div key={task.id}>
+             <div className="TaskCheck" key={task.id}>
                <Task 
                index={index}
                task={task} 

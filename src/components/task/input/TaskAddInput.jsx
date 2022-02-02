@@ -40,6 +40,7 @@ export const TaskAddInput = ({
       className="taskAddInput"
       onChange={handleChange}
       value={inputText}
+      completed= "false"
       />
     </form>
   </div>

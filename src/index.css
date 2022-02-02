@@ -47,9 +47,9 @@ header {
 
 .app {
   background: url(../public/paper_00108.jpeg);
-  height: 100vh;
+  height: 150vh;
   width: 100%;
-  /* background-repeat: no-repeat; */
+  background-repeat: repeat;
 }
 
 .taskCard {
@@ -99,10 +99,35 @@ header {
   margin-left: 12px;
 }
 
+.taskCheckButton {
+  cursor: pointer;
+  border: none;
+  margin: 6px;
+}
+
+.TaskCheck {
+  display: flex;
+  /* justify-content: right; */
+}
+
 .taskTrashButton {
   cursor: pointer;
-  margin-right: 9px;
+  margin-right: 6px;
   border: none;
+}
+.taskBox {
+  width: 200px;
+  justify-content: right;
+}
+.taskText {
+  width: 200px;
+  /* justify-content: initial; */
+  padding-left: 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
 .taskCardsArea {

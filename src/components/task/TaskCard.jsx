@@ -25,6 +25,7 @@ export const TaskCard = ({taskCardsList, setTaskCardsList, taskCard, index }) =>
             setTaskCardsList={setTaskCardsList}
             taskCard={taskCard}
             />
+            
         </div>
           <TaskAddInput 
           inputText={inputText} 

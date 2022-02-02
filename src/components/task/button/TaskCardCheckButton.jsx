@@ -1,20 +1,20 @@
 import React from 'react';
 
-export const TaskCardDeleteButton = ({
+export const TaskCardCheckButton = ({
   taskCardsList,
   setTaskCardsList,
   taskCard,
  }) => {
-  const taskCardDeleteButton = (id) => {
+  const taskCardCheckButton = (id) => {
     setTaskCardsList(taskCardsList.filter((e) => e.id !== id));
   };
   return (
   <div>
     <button
-     className="taskCardDeleteButton"
-     onClick={() => taskCardDeleteButton(taskCard.id)}
+     className="taskCardCheckButton"
+     onClick={() => taskCardCheckButton(taskCard.id)}
      >
-    <i className="far fa-minus-square"></i>
+    <i className="far fa-check-square"></i>
     </button>
   </div>
   );
